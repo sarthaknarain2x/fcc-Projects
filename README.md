@@ -6,3 +6,6 @@ As part of this certification, I built the following projects using HTML and CSS
 3. Technical Documentation Page
 4. Product Landing Page
 5. Personal Portfolio WebPage
+
+# Verification of Certificate
+Verify this certification as well as my solutions including various test cases at https://freecodecamp.org/certification/_sarthak_/responsive-web-design
