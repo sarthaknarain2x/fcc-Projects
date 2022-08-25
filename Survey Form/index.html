@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1><title>Survey Form</title></h1>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 id="title">freeCodecamp Survey Form</h1>
+    <p id="description">Survey Form</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name:</label><br>
+        <input type="name" id="name" name="name" placeholder="enter your name" required=""><br>
+        <label id="email-label" for="email">email:</label><br>
+        <input type="email" id="email" email="email" placeholder="enter your email" required=""><br>
+        <label id="number-label" for="number">number:</label><br>      
+        <input type="number" id="number" number="number" placeholder="enter your number" required="" min=0 max=9999999999><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+
+
+        <label for="cars">Choose a car:</label>
+        <select id="dropdown" name="cars">  
+        <option value="volvo">Volvo</option>
+        <option value="benz">Benz</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        </select><br>
+
+
+       <p>Please select your favorite Web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+      <textarea name="WRITE SOMETHING" rows="4" cols="50" value="submit">WRITE SOMETHING
+        </textarea>
+        <br>
+        <input type="submit" value="Submit" id="submit">
+      
+    </form>
+</body>
+</html>
